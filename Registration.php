@@ -52,7 +52,7 @@ if(isset($_POST["password"])){ //check if the password is entered or not
 if(isset($_POST["submit"])) {
 	try {
 		//New PDO object defined to access the PHPMyadmin database with the appropriate table name, username, password.
-		$conn = new PDO('mysql:host=localhost;dbname=mapleleaf','puppies_admin','diary123');
+		$conn = new PDO('mysql:host=localhost;dbname=mapleleaf','puppies_admin','*****');
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		$salt1 = random_bytes(20); // Generates a ranom 20 bytes long character
 		$password = $_POST['password'];//Save the password entered in the password field into a variable
