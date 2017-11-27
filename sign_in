@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <head>
+  
+  		<title> Web Applications </title> 
+  		<meta charset="utf-8" />	
+			
+		<link href="Untitled2.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="file.js"></script>
+													   
+  </head>
+  
+  <body> 
+
+  		<div id="header"> 
+  			<h1> MAPLE &nbsp; LEAF &nbsp;  REPORT </h1>
+		</div>
+
+
+		<form action="login.php" method="POST" >
+			<input type="text" name="username" placeholder="Username" />
+			<input type="password" name="password" placeholder="Password" />
+			<input type="submit" name="login" value="LOGIN" />
+		</form>
+		
+		<br />
+
+	
+		 
+	<!--	<div id="search2"> -->
+			 <form action="results_sample.php" method="POST"> 
+
+				   <input type="search" class="search" name = "searchs" placeholder="Search by name or place" required />
+					<input type="button" class="button" value="Search" />
+					<div id="drop">
+					<select name="Ratings">
+						<option value="5 Star">5 Star</option>
+						<option value="4 Star">4 Star</option>
+						<option value="3 Star">3 Star</option>
+						<option value="2 Star">2 Star</option>
+						<option value="1 Star">1 Star</option>
+					</select>
+					</div>
+			
+
+			 </form> 
+
+			 <div id="menu">
+		  <ul>
+			 <li><a href="search.html">Home</a> </li>
+			 <li><a href="">About Us</a> </li>
+			 <li><a href="">Contact</a></li>
+			 <li><a href="Registration.html">Registration</a></li>
+			 <li><a href="submission.html">Any Recommendations?</a></li>
+			 
+		   </ul>
+		 </div>  
+		 
+
+		
+		 <div id="content"> 
+		   	 <p>The exam sleeps opposite the hate. 
+			 			Our coordinate originates. 
+			 			The appearance shortens the panel inside each negative leisure.
+			 </p>
+		</div>
+		
+		<div id="footer">
+		 	 <p>© Copyright 2016 McMaster University, Hamilton, ON, Canada. All Rights Reserved</P>
+		</div>
+		
+  </body>
+
+</html>
