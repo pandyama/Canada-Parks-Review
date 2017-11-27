@@ -121,7 +121,7 @@ if(isset($_POST["long"])){ // Check if the longitude field is not empty
 if(isset($_POST["submit"])) { //If user clicks the submit button after filling out the HTML form for object submission, execute the code below
 	try {
 		//New PDO object defined to access the PHPMyadmin database with the appropriate table name, username, password.
-		$conn = new PDO('mysql:host=localhost;dbname=mapleleaf','puppies_admin','diary123');
+		$conn = new PDO('mysql:host=localhost;dbname=mapleleaf','puppies_admin','*****');
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 		//the query below Inserts into the Object table the values retrieved from the fields in the HTML form for object submission
