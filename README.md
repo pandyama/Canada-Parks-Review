@@ -10,6 +10,7 @@ Passwords hashed and salted before submitting to database. </br>
 
 HOME PAGE </br>
 ![1](https://user-images.githubusercontent.com/23368989/33248151-56df20b0-d2f1-11e7-9e07-83e69a9f0313.PNG)
+----
 
 REGISTER PAGE </br>
 ![1](https://user-images.githubusercontent.com/23368989/33248928-8f286fb8-d2f5-11e7-8a16-f42262547d69.PNG)
