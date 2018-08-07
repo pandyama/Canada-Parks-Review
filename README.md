@@ -1,6 +1,7 @@
 # Canada-Parks-Review
 
 Canada Park Review is a  fully functioning website developed for final year school project </br>
+
 Tech: 
   - HTML5
   - CSS
